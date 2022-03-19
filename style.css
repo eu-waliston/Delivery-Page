@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+}
+
+/* Nav Bar --------------------------------------- */
+
+#landing-page {
+    background-color: rgb(25, 206, 230);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.logo {
+    width: 120px;
+    margin: 0;
+    position: relative;
+    top: -15px;
+}
+
+.nav-item {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    border: 1px white solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#nav-item-fundo:hover  {
+    color:  rgb(42, 42, 231);
+    border: 1px rgb(34, 34, 230) solid;
+}
+
+.nav-itens {
+    float: right;
+    padding-top: 35px;
+    padding-right: 100px;
+}
+
+
+/* main page --------------------------------------- */
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color:  rgb(40, 82, 197);
+    font-weight: 500;
+    padding-left: 100px;
+    padding-top: 50px;
+    justify-content: center;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+p {
+    color: rgb(228, 222, 222);
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    padding-left: 200px;
+    padding-top: 335px;
+}
+#about {
+    color:  rgb(42, 42, 231);
+    border: 1px rgb(34, 34, 230) solid;
+    padding: 10px;
+    border-radius: 15px;
+    position: fixed;
+    left: 200px;
+    top: 620px;
+}
+#about:hover {
+   border: 1px white solid; 
+   color: #fff;
+}
+
+#arrow-down {
+    color:  rgb(42, 42, 231);
+    border: 1px white solid;
+    padding: 10px;
+    border-radius: 15px;
+    position: fixed;
+    left: 198px;
+    top: 755px;
+}
+
+#imagem-principal {
+    width: 600px;
+    margin: 0;
+    position: fixed;
+    float: right;
+    bottom: 400px;
+    right: 400px;
+    top: 270px;
+}
